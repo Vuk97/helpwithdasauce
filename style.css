@@ -1,0 +1,81 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+div.section{
+  padding-bottom:0px;
+}
+ul li{
+  display:table
+
+
+}
+p {
+  line-height: 2rem;
+}
+i {
+      padding-right: 10px;
+
+
+}
+#logo-container{
+  display:table;
+
+}
+#shit{
+  display:table;
+
+}
+#shit .li .a{
+  padding-right:10px;
+}
+
+
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  #logo-container.brand-logo{
+    font-size:1.5rem;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer.container {
+  margin: 0;
+}
